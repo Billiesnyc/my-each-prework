@@ -6,5 +6,5 @@ def my_each(collection)
  puts i 
  end
  else
-   puts "Hey"
+   puts "Hey! No block was given."
 end
