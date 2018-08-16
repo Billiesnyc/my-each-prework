@@ -5,5 +5,6 @@ def my_each(collection)
  yield(array[i])
  puts i 
  end
- 
+ else
+   puts "Hey"
 end
