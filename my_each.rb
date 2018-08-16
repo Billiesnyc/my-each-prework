@@ -1,11 +1,11 @@
 def my_each(collection)
   if block_given?
- i = 0 
-  while i < collection.length
+    i = 0 
+    while i < collection.length
     i += 1
-  end
- else
+    end
+  else
    print "Hey! No block was given."
- end
- collection 
+  end
+  
 end
