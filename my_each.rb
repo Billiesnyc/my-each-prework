@@ -4,7 +4,7 @@ def my_each(collection)
  while i < collection.length
  yield(array[i])
  puts i
- i = i 
+ i = i + 1
  end
  else
    puts "Hey! No block was given."
