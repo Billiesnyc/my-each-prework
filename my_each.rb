@@ -4,4 +4,6 @@ def my_each(collection)
  while i < collection.length
  yield(array[i])
  puts i 
+ end
+ 
 end
